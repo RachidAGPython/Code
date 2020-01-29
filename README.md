@@ -1,18 +1,20 @@
-from random import shuffle                      # ZufallsBibliothek
+# A-beautiful-code-in-Python
+Eine launige Einführung in Python
 
-superlatives = "amazing gorgeous blazing stunning tremendous greatest best fantastic \
-               phenomenal delightful ambitious outstanding incredible spectacular \
-               super cool magical revolutionary beautiful jaw-dropping lovely".upper().split() #upper großschreibung
-shuffle(superlatives)                           # Zufall aus der Liste
+Die Serie dient Anfängern zum Erlenen der Sprache. Anhand von Aufgaben werden Python-Befehle eingeführt und erläutert.
 
-for strophe in range(5):                        # 5 Strophen erzeugen
-    for zeile in range(2):                      # 2 Zeilen
-        for word in range(4):                   # 4 mal
-            print("SPAM ", end='')              # nebeneinander
-        print()
-    el1 = superlatives.pop()                    # pop. damit die Variablen nicht wiederholt werden
-    el2 = superlatives.pop()
+Zu jedem Programm gibt es ein Video auf YouTube
 
-    print("{} SPAM, {} SPAM".format(el1, el2))  # Ausgabe      
-    print()
+https://www.youtube.com/watch?v=C8R5zt7TIVU&list=PLhC_4AWNg9rnM_qAPyUU4Wo1kJoOAMC6_
 
+Im Zweifel werden die Videos dann relativ lang, da ich die Befehle und die hinter dem Algorithmus liegenden Gedanken ziemlich ausführlich erläutere.
+
+Nach Möglichkeit, versuche ich dabei, möglichst leicht lesbaren = pythonic Code zu erzeugen.
+
+Nebenbei bemerkt, lerne ich dadurch auch noch einen ganze Menge dazu, denn nichts ist besser zum Lernen von neuen Inhalten geeignet, als das Erklären des Gelernten an einen Dritten :-)
+
+Falls Ihr Optimierungsmöglichkeiten entdeckt, immer gen hier unter "Issues" hinterlegen.
+
+Viel Spass bei den Beispielen wünscht
+
+GRAVITAR
